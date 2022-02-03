@@ -1,0 +1,189 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "project-0-test",
+        "directory": "/Users/RoverOne/Development/Revature/Projects/project-0",
+        "workspaceDir": "/Users/RoverOne/Development/Revature/Projects/project-0",
+        "sources": [
+            "/Users/RoverOne/Development/Revature/Projects/project-0/src/test/scala",
+            "/Users/RoverOne/Development/Revature/Projects/project-0/src/test/scala-2.13",
+            "/Users/RoverOne/Development/Revature/Projects/project-0/src/test/scala-2",
+            "/Users/RoverOne/Development/Revature/Projects/project-0/src/test/java",
+            "/Users/RoverOne/Development/Revature/Projects/project-0/target/scala-2.13/src_managed/test"
+        ],
+        "dependencies": [
+            "project-0"
+        ],
+        "classpath": [
+            "/Users/RoverOne/Development/Revature/Projects/project-0/.bloop/project-0/scala-2.13/classes",
+            "/Users/RoverOne/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.7/scala-library-2.13.7.jar",
+            "/Users/RoverOne/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/mysql/mysql-connector-java/8.0.26/mysql-connector-java-8.0.26.jar",
+            "/Users/RoverOne/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar"
+        ],
+        "out": "/Users/RoverOne/Development/Revature/Projects/project-0/.bloop/project-0",
+        "classesDir": "/Users/RoverOne/Development/Revature/Projects/project-0/.bloop/project-0/scala-2.13/test-classes",
+        "resources": [
+            "/Users/RoverOne/Development/Revature/Projects/project-0/src/test/resources",
+            "/Users/RoverOne/Development/Revature/Projects/project-0/target/scala-2.13/resource_managed/test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.7",
+            "options": [
+                
+            ],
+            "jars": [
+                "/Users/RoverOne/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.7/scala-library-2.13.7.jar",
+                "/Users/RoverOne/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.7/scala-compiler-2.13.7.jar",
+                "/Users/RoverOne/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.7/scala-reflect-2.13.7.jar",
+                "/Users/RoverOne/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.20.0/jline-3.20.0.jar",
+                "/Users/RoverOne/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre",
+                "options": [
+                    "-Duser.dir=/Users/RoverOne/Development/Revature/Projects/project-0"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/RoverOne/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.7/scala-library-2.13.7.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/RoverOne/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.7/scala-library-2.13.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "mysql",
+                    "name": "mysql-connector-java",
+                    "version": "8.0.26",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "mysql-connector-java",
+                            "path": "/Users/RoverOne/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/mysql/mysql-connector-java/8.0.26/mysql-connector-java-8.0.26.jar"
+                        },
+                        {
+                            "name": "mysql-connector-java",
+                            "classifier": "sources",
+                            "path": "/Users/RoverOne/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/mysql/mysql-connector-java/8.0.26/mysql-connector-java-8.0.26-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.protobuf",
+                    "name": "protobuf-java",
+                    "version": "3.11.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "protobuf-java",
+                            "path": "/Users/RoverOne/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar"
+                        },
+                        {
+                            "name": "protobuf-java",
+                            "classifier": "sources",
+                            "path": "/Users/RoverOne/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.7",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/RoverOne/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.7/scala-library-2.13.7.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/RoverOne/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.7/scala-library-2.13.7-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}
